@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+  <!-- 形状为渐变色 -->
+    <gradient android:startColor="#FF0000"
+        android:centerColor="#00FF00"
+        android:endColor="#0000FF"
+        android:angle="45"/>
+    <!--将变化后的按钮边框，圆角，内间距设置与按钮按下前一致，不然会很别扭。  -->
+     <!-- 形状的边框 -->
+    <stroke
+        android:width="2dp"
+        android:color="#88FF00FF" />
+    <!-- 设置形状的圆角 -->
+    <corners android:radius="30dp" />
+    <!-- 内间距 -->
+    <padding
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp" />
+    
+</shape>
